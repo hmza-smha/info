@@ -1,0 +1,40 @@
+a{
+    color: dodgerblue;
+}
+
+p{
+    margin: 20px 0;
+}
+
+img{
+    max-width: 100px;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title{
+    color: #aaa;
+}
+
+.bio{
+    line-height: 35px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    img{
+        max-width: 70px;
+    }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+    img{
+        max-width: 50px;
+    }
+}
